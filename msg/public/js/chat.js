@@ -67,7 +67,6 @@ $(".mytext").on("keyup", function(e){
 resetChat();
 $(function() {
 $("#send").click(function() {
-alert("in");
 $.ajax({
                  type: "POST",
                  url: "/sendMessage",
